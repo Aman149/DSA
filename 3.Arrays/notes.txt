@@ -1,0 +1,10 @@
+Array requires contihues memory
+
+1. Advantages
+    i) array allw random access in O(1) time
+    ii) cache friendliness
+
+2. Types of arrays
+    i) fixed size array
+    ii) Dynamic size array
+
