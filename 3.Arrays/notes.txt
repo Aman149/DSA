@@ -1,10 +1,18 @@
 Array requires contihues memory
 
 1. Advantages
-    i) array allw random access in O(1) time
-    ii) cache friendliness
+    (i)  array allw random access in O(1) time
+    (ii) cache friendliness
 
 2. Types of arrays
-    i) fixed size array
-    ii) Dynamic size array
+    (i)  fixed size array
+    (ii) Dynamic size array
+
+3. Advantages of vector over regular array
+    (i)   Dynamic size
+    (ii)  Rich library function find, erase insert etc
+    (iii) Easy to know size 
+    (iv)  No need to pass size of array
+    (v)   Can be returned from a function
+    (vi)  By default initialized with default value
 
