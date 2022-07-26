@@ -16,3 +16,7 @@ Array requires contihues memory
     (v)   Can be returned from a function
     (vi)  By default initialized with default value
 
+Extra Questions
+1. Check of an array can be divided into 3 equal part sums
+2. *Check if there is a subarray with zero sum (discussed in hashing), Subarray with given sum
+3. *Find the longest subarray with equal number of zeros and ones in a binary array
