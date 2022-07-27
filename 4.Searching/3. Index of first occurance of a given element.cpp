@@ -10,14 +10,14 @@ int binarySearch(vector<int> arr, int n, int target) {
         int mid = (start+end)/2;
 
         if(arr[mid] >  target)
-            end = mid;
+            end = mid - 1;
 
         else if (arr[mid] < target)
             start = mid + 1;
 
         else {
-            if(arr[mid] == target || arr[mid-1] != target)
-                return mid+1;
+            if(arr[mid] == target && arr[mid-1] != target)
+                return mid;
             else
                 end = mid - 1;
         }
@@ -28,5 +28,5 @@ int binarySearch(vector<int> arr, int n, int target) {
 
 int main() {
     vector<int> arr = {10 ,15, 20 ,20, 20};
-    cout<<binarySearch(arr, arr.size(), 20);
+    cout<<binarySearch(arr, arr.size(), 15);
 }
