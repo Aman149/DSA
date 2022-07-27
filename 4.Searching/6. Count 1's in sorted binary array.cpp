@@ -32,5 +32,5 @@ int binaryCount(vector<int> arr, int n) {
 
 int main() {
     vector<int> arr = {0, 0, 1, 1, 1, 1};
-    cout<<binaryCount(arr, arr.size();
+    cout<<binaryCount(arr, arr.size());
 }
