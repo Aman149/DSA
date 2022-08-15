@@ -1,4 +1,4 @@
-###Searching in C++
+#Searching in C++
 #DSA/Searching
 
 1. Types of Searching techniques
