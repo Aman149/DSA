@@ -1,17 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
-int arr[1000] = {0};
-
-bool directAddressing(int x) {
-
-}
-
-int main() {
-    cout<<directAddressing(10);
-}
-#include<bits/stdc++.h>
-using namespace std;
 int arr[1000] = {0};
 
 void insert(int x) {
