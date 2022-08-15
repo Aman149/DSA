@@ -69,13 +69,13 @@ The idea is simple, point each cell of the hash table to a linked list that will
 Hash(key) = key % 7
 Keys = [ 50, 21, 58, 17, 15, 49, 56, 22, 23, 25 ]
 
-| Indexed  | Hash Table |
-| —————— | —————— |
-| 0 |  21 | -> 49 -> 56
-| 1 | 50  | -> 15 -> 22
-| 2 |  58 | -> 23
-| 3 |  17 |
-| 4 | 25  |
-| 5 |   |
-| 6 |   |
+| Index | Hash Table | | |
+| ---: | ---: | ---: | ---: |
+| 0 | 21 | 49 | 56 |
+| 1 | 50 | 15 | 22 |
+| 2 | 58 | 23 |
+| 3 | 17 |   |   |
+| 4 | 25 |   |   |
+| 5 |   |   |   |
+| 6 |   |   |   |
 
