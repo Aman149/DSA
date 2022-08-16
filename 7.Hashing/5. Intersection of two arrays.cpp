@@ -7,11 +7,14 @@ void intersection(int arr1[], int arr2[], int n, int m) {
     for(int i=0; i<n; i++)
         hash.insert(arr1[i]);
 
-    for(int i=0; i<m; i++)
-        hash.insert(arr2[i]);
+    int count = 0;
+    for(int i=0; i<m; i++) {
+        if(hash.find(arr2[i]) != hash.end())
+            count++;
+    }
+
+    cout<<count;
     
-    for(auto x : hash)
-        cout<<x<<" ";
 }
 
 int main() {
