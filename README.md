@@ -4,7 +4,7 @@ This repo contains my DSA notes and topic specific questions solved !!!!
 ## Topics
 | Topic Name  | Link  | Status |
 | :------------ |:---------------:| --------:|
-| 1. Introduction      s| NA | To Do |
+| 1. Introduction   | NA | To Do |
 | 2. Mathematics      | NA       |   To Do |
 | 3. Bit Magic | Pay and Reject       |    To Do |
 | 4. Recursion      | NA | To Do |
